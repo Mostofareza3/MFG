@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "country": "Algeria",
+      "address": "29, Route de Meftah – l'Arbaâ – 09300 W. Blida",
+      "phone": "+213 21 448 644",
+      "fax": "+213 448 580",
+      "email": "contact@mfg.dz",
+      "localMarketInfo": ["mhamed.noureddine@cevital.com", "fouzi.baouche@cevital.com"],
+      "exportMarketInfo": ["saliha.azzaz@cevital.com", "mohand.houali@cevital.com", "asma.hamimes@cevital.com"]
+    },
+    {
+      "id": 2,
+      "country": "Tunisia",
+      "address": "Tunis, Tunisie",
+      "phone": "+216 36 38 79 92",
+      "fax": "+216 36 38 79 92",
+      "email": "nacima.ogal@cevital.com",
+      "localMarketInfo": ["nacima.ogal@cevital.com"],
+      "exportMarketInfo": ["nacima.ogal@cevital.com"]
+    },
+    {
+      "id": 3,
+      "country": "Morocco",
+      "address": "Casablanca, Maroc",
+      "phone": "+212 66 207 68 86",
+      "fax": "+212 66 207 68 86",
+      "email": "imad.alamiouali@cevital.com",
+      "localMarketInfo": ["imad.alamiouali@cevital.com"],
+      "exportMarketInfo": ["imad.alamiouali@cevital.com"]
+    }
+  ]
+  

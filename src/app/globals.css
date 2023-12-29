@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@layer base {
+  :root {
+    --color-primary: 0 176 240;
+    --color-secondary: 0 84 167;
+    /* ... */
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Montserrat";
+    src: url(../../public/assets/fonts/Montserrat-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: url(../../public/assets/fonts/Poppins-Regular.ttf);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}

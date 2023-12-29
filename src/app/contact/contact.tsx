@@ -10,7 +10,7 @@ enum countryName {
   Morocco = "Morocco",
 }
 
-export default function contact() {
+export default function Contact() {
   const [country, setCountry] = useState<string>(countryName.Algeria);
 
   let selectedContact = contactInfo[0];

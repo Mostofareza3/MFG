@@ -20,15 +20,15 @@ export default function FAQSection() {
             Frequently Asked Questions
           </h3>
         </div>
-        <div className="flex items-center justify-center py-5 max-w-7xl mx-auto gap-4 relative h-[550px]">
-            <div className="flex flex-col lg:flex lg:flex-row w-full mx-auto z-50 absolute max-w-[625px] top-10 left-3">
+        <div className="flex items-center justify-center py-5 max-w-7xl mx-auto gap-4 relative h-[550px] max-xl:h-full max-xl:flex-col">
+            <div className="flex flex-col lg:flex lg:flex-row w-full mx-auto z-50 absolute max-w-[625px] top-10 left-3 max-xl:relative">
                 <Layout
                 data={data.slice(0, 5)}
                 turn={leftActive}
                 setTurn={setLeftActive}
                 />
             </div>
-            <div className="flex flex-col lg:flex lg:flex-row w-full mx-auto z-50 absolute max-w-[625px] top-10 right-3 max-lg:hidden">
+            <div className="flex flex-col lg:flex lg:flex-row w-full mx-auto z-50 absolute max-w-[625px] top-10 right-3 max-xl:right-0 max-xl:relative">
                 <Layout
                 data={data.slice(5, 10)}
                 turn={rightActive}

@@ -5,9 +5,9 @@ function ButtonGroup({ onSelectCountry }: any) {
   const [isSelected, setIsSelected] = React.useState<string | null>("Algeria");
 
   const selectedButtonStyle =
-    "w-[208px] h-[56px] max-lg:w-[150px] group relative bg-secondary hover:bg-[#0e7ceb] py-3 px-6 text-white outline-none focus:bg-secondary max-lg:px-2 max-lg:py-1";
+    "w-[208px] h-[56px] max-lg:w-[150px] group relative bg-secondary hover:bg-[#0e7ceb] py-3 max-lg-py-1 px-6 max-lg:px-2 text-white outline-none focus:bg-secondary max-lg:px-2 max-lg:py-1";
   const unSelectedButtonStyle =
-    "w-[208px] h-[56px] group relative bg-inherit text-[#0e7ceb]  border-2 border-[#0e7ceb] py-3 px-6 outline-none hover:bg-gray-200";
+    "w-[208px] h-[56px] max-lg:w-[150px] group relative bg-inherit text-[#0e7ceb]  border-2 border-[#0e7ceb] py-3 max-lg-py-1 px-6 max-lg:px-2 outline-none hover:bg-gray-200";
 
   const handleCountryClick = (country: any) => {
     onSelectCountry(country);

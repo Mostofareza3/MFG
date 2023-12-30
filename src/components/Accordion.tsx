@@ -33,14 +33,14 @@ const Accordion = ({question, answer, turn, setTurn, idx}: Props) => {
        className={`bg-transparent shadow cursor-pointer w-full h-full ${turn![idx]}`}>
         <div className=''>
            <div className={`flex items-center justify-between h-[76px] text-left ${turn![idx] && "bg-[#0054A7] text-white"}`}>
-              <span className={`mx-8 text-[20px] font-medium lg:font-semibold lg:text-xl text-sm  ${turn![idx] ? "text-white" :"text-[#0054A7]"}`}>{question}</span>
+              <span className={`mx-8 xl:text-xl font-medium lg:font-semibold lg:text-base text-sm  ${turn![idx] ? "text-white" :"text-[#0054A7]"}`}>{question}</span>
               <div className="mr-4">
                { turn![idx] ? <span className="text-white text-[40px]"> - </span> :
                 <Image src={plus} alt="" width={20} height={20}/>}
               </div>
            </div>
            <div ref={contentRef} className='ml-8 mr-4 overflow-hidden text-left transition-all duration-500 h-full'>
-              <p className='text-[18px] py-1 my-3 font-normal leading-normal text-justify whitespace-pre-line'>
+              <p className='text-[18px] py-1 my-3 font-normal leading-normal text-justify whitespace-pre-line text-base xl:text-xl'>
                 {answer}
               </p>
            </div>

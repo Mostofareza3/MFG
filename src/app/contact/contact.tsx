@@ -89,11 +89,11 @@ export default function Contact() {
             </form>
           </div>
           <address id="details" className="mx-2 sm:mx-12 space-y-8 w-[40%] max-lg:w-full">
-            <h2 className="text-[35px] text-left mb-8 font-bold not-italic ">
+            <h2 className="text-[35px] max-md:text-2xl max-lg:text-center max-lg:mt-4 text-left mb-8 font-bold not-italic ">
               Contact Details
             </h2>
 
-            <div id="address" className="flex flex-col sm:flex sm:flex-row items-center">
+            <div id="address" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-map-marker text-white"></i>
@@ -112,7 +112,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div id="phone" className="flex flex-col sm:flex sm:flex-row items-center">
+            <div id="phone" className="flex flex-col sm:flex sm:flex-row max-lg:items-start max-lg:ml-4 max-md:ml-4">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-phone text-white"></i>
@@ -131,7 +131,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div id="phone" className="flex flex-col sm:flex sm:flex-row items-center">
+            <div id="phone" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-print text-white"></i>
@@ -149,7 +149,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center">
+            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>
@@ -168,7 +168,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div id="service" className="flex flex-col sm:flex sm:flex-row items-center">
+            <div id="service" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>
@@ -194,7 +194,7 @@ export default function Contact() {
                 }
               </div>
             </div>
-            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center">
+            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>

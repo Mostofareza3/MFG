@@ -43,14 +43,14 @@ export default function Contact() {
           <h2 className="uppercase font-bold ">Contact Us</h2>
         </div>
         <div id="text" className="flex justify-center">
-          <h3 className="text-center text-4xl font-bold">
+          <h3 className="text-center text-4xl font-bold ">
             Let&apos;s Connect
           </h3>
         </div>
         <ButtonGroup onSelectCountry={handleSelectCountry}/>
         <div className="flex flex-col lg:flex lg:flex-row max-w-7xl mx-auto z-50">
-          <div id="form" className="ml-[100px] mr-12 w-[60%]">
-            <h2 className="text-[35px] mb-8 font-bold text-center sm:text-left">Send your message</h2>
+          <div id="form" className="ml-[100px] mr-12 w-[60%] max-lg:w-[80%] max-lg:mx-auto">
+            <h2 className="text-[35px] mb-8 font-bold text-center max-md:text-3xl max-lg:text-center">Send your message</h2>
             <form className="space-y-4">
               <input
                 name="name"
@@ -93,7 +93,7 @@ export default function Contact() {
               Contact Details
             </h2>
 
-            <div id="address" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
+            <div id="address" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-8 max-md:ml-8 max-lg:flex-row ">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-map-marker text-white"></i>
@@ -112,7 +112,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div id="phone" className="flex flex-col sm:flex sm:flex-row max-lg:items-start max-lg:ml-4 max-md:ml-4">
+            <div id="phone" className="flex flex-col sm:flex sm:flex-row max-lg:items-start max-lg:ml-8 max-md:ml-8 max-lg:flex-row ">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-phone text-white"></i>
@@ -131,7 +131,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div id="phone" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
+            <div id="phone" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-8 max-md:ml-8 max-lg:flex-row ">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-print text-white"></i>
@@ -149,7 +149,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
+            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-8 max-md:ml-8 max-lg:flex-row ">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>
@@ -168,7 +168,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div id="service" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
+            <div id="service" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-8 max-md:ml-8 max-lg:flex-row ">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>
@@ -194,7 +194,7 @@ export default function Contact() {
                 }
               </div>
             </div>
-            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-4 max-md:ml-4">
+            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center max-lg:items-start max-lg:ml-8 max-md:ml-8 max-lg:flex-row ">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>

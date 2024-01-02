@@ -36,8 +36,8 @@ export default function Contact() {
       <span style={{ display: "inline-block", borderLeft: "4px solid #4D4D4D", height: "60px", rotate:"90deg" }} className="absolute top-[27px] -right-[60px]"></span>
     </div>
     {/* vertical line end */}
-      <div className="z-0 absolute min-h-full w-full left-0 top-0 bg-cover"></div>
-      <div id="contact-wrapper" className="z-50 py-20 relative">
+      {/* <div className="z-0 absolute min-h-full w-full left-0 top-0 bg-cover"></div> */}
+      <div id="contact-wrapper" className="z-50 py-20 relative h-full md:h-full lg:h-[1200px]">
         <div className="  flex justify-center items-end gap-3 text-secondary">
           <hr className="mb-1 border-b border-secondary w-12"></hr>
           <h2 className="uppercase font-bold ">Contact Us</h2>
@@ -88,6 +88,7 @@ export default function Contact() {
               </div>
             </form>
           </div>
+          {/* contact */}
           <address id="details" className="mx-2 sm:mx-12 space-y-8 w-[40%] max-lg:w-full">
             <h2 className="text-[35px] max-md:text-2xl max-lg:text-center max-lg:mt-4 text-left mb-8 font-bold not-italic ">
               Contact Details
